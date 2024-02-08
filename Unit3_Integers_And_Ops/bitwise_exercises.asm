@@ -1,5 +1,5 @@
 ; Base Author: Megan Avery Spring 2024
-; Exercise Author: [YOUR NAME HERE]
+; Exercise Author: [Bobby Picasio]
 
 ; Purpose - to learn about the following:
 ;	- AND
@@ -23,7 +23,12 @@ asm_main:
         enter   0,0               ; setup routine
         pusha
 
-		; TODO: add code
+	mov eax, 4
+        mov ebx, 2
+        test eax, ebx
+        dump_regs 1
+
+        
 
         popa
         mov     eax, 0            ; return back to C

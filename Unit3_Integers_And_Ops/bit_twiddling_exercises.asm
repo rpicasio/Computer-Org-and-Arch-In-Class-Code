@@ -1,5 +1,5 @@
 ; Base Authro: Megan Avery Spring 2024
-; Exercise Author: [YOUR NAME HERE]
+; Exercise Author: [Bobby Picasio]
 
 ; Purpose: showcase examples of bit twiddling
 
