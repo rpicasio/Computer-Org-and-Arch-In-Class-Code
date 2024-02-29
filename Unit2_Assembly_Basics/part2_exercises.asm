@@ -104,9 +104,9 @@ asm_main:
 ;       call read_int
 ;       mov dword [space_for_number], eax
 
-        dump_mem 1, many_chars, 0
-        call print_nl
-        dump_mem 2, many_chars + 3, 0
+        ; dump_mem 1, many_chars, 0
+        ; call print_nl
+        ; dump_mem 2, many_chars + 3, 0
 
 
         

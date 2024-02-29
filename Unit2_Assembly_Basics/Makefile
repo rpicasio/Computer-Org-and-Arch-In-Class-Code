@@ -9,7 +9,7 @@ LDFLAGS := -m32
 CC		:= gcc
 CXX		:= g++
 CXXFLAGS := -m32
-TARGETS := skeleton part1_exercises part2_exercises sum_example
+TARGETS := skeleton part1_exercises part2_exercises project3 sum_example
 DEP := driver.o asm_io.o
 
 .PHONY: clean
@@ -25,6 +25,8 @@ part1_exercises: $(DEP)
 
 part2_exercises: $(DEP)
 
+project3: $(DEP)
+
 sum_example: $(DEP)
 
 asm_io.o: asm_io.asm
@@ -35,6 +37,8 @@ skeleton.o: asm_io.inc
 part1_exercises.o: asm_io.inc
 
 part2_exercises.o: asm_io.inc
+
+project3.o: asm_io.inc
 
 sum_example.o: asm_io.inc
 

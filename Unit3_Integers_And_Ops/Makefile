@@ -9,7 +9,7 @@ LDFLAGS := -m32
 CC		:= gcc
 CXX		:= g++
 CXXFLAGS := -m32
-TARGETS := bitwise_exercises bit_twiddling_exercises integers_exercises math skeleton shifts_exercises
+TARGETS := bitwise_exercises bit_twiddling_exercises integers_exercises  math skeleton shifts_exercises
 DEP := driver.o asm_io.o
 
 .PHONY: clean
